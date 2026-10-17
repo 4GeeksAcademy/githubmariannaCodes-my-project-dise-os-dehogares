@@ -281,6 +281,35 @@ nav {
   color: var(--muted);
 }
 
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.project-figure {
+  display: flex;
+  flex: 1 1 18rem;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 28rem;
+  margin: 0;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-figure figcaption {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
 .events {
   background: #e8ece7;
 }
